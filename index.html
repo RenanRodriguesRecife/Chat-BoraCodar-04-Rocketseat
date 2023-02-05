@@ -1,19 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/phosphor-icons"></script>
 </head>
 <body>
     <div id="app">
-        <div class="wrapper">
-            <div id="top">A</div>
-            <div id="messages">B</div>
-            <div id="bottom">C</div>
-        </div>
+       
+            <div id="top">
+                <div id="user-info">
+                    <img src="https://randomuser.me/api/portraits/women/30.jpg" alt="mulher negra com colar metálico e camisa preta">
+                    <div id="use-status">
+                        <strong>Debora Sakura</strong>
+                        <div class="status">Online</div>
+                    </div>
+                </div>
+                <div id="close-chat"><i class="ph-x-fill"></i></div>
+            </div>
+            <div id="messages">
+                <div id="last-seen">Hoje 23:00</div>
+
+                <div class="messages">
+                    <div class="message">
+                        <div class="top">Debora - 22:00</div>
+                        <div class="body">bla bla bla</div>
+                    </div>
+                    <div class="message you">
+                        <div class="top">Debora - 22:01</div>
+                        <div class="body">bla bla bla bla bla</div>
+                    </div>
+
+                    <div class="message">
+                        <div class="top">Debora - 22:02</div>
+                        <div class="body">bla bla bla</div>
+                    </div>
+                    <div class="message you">
+                        <div class="top">Debora - 22:03</div>
+                        <div class="body">bla<strong> bla bla bla</strong> bla bla bla bla</div>
+                    </div>
+               
+
+            </div>
+            <form id="bottom">
+                
+                   
+                        <input type="text" name="" id="" placeholder="Digite sua mensagem">
+                        <button type="submit"><i class="ph-paper-plane-right-fill"></i>
+                        </button>
+                   
+                
+            </form>
+        
     </div>
 </body>
 </html>
