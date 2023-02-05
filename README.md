@@ -2,6 +2,6 @@
 
 <img src="chat.JPG">
 
-ttps://renanrodriguesrecife.github.io/Chat-BoraCodar-04-Rocketseat/
+https://renanrodriguesrecife.github.io/Chat-BoraCodar-04-Rocketseat/
 
 <!--https://www.youtube.com/watch?v=iQkN0Lo3Kwo-->
